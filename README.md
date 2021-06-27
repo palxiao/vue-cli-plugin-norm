@@ -18,11 +18,11 @@ start, enjoy code!
 new commit: 
 ```
 npm run c
-``` OR 
-```
-npm run commit
-```
+``` 
 
-commit log view: ```npm run clog```
+commit log view: 
+```
+npm run clog
+```
 
 [eslint reference Doc.](https://alloyteam.github.io/eslint-config-alloy/?hideOff=1)
