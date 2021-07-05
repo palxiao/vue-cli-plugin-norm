@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 var express = require('express');
-var http = require('http');
+// var http = require('http');
 var fs = require('fs');
 var open = require('open');
 var bodyParser = require('body-parser');
