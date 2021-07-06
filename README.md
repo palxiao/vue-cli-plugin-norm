@@ -1,19 +1,21 @@
 # vue-cli-plugin-norm
 Code style and validation, git commit specification. Fully automated!
 
-Currently rely on Vue-cli
+### Your vscode need to install plugin：`prettier` `eslint`
+
+### Currently rely on Vue-cli
 ```
 npm install -g @vue/cli
 # OR
 yarn global add @vue/cli
 ```
 
-At your project: 
+### At your project: 
 ```
 vue add vue-cli-plugin-norm
 ```
 
-start, enjoy code!
+### Start, enjoy code!
 
 new commit: 
 ```
@@ -26,3 +28,12 @@ npm run clog
 ```
 
 [eslint reference Doc.](https://alloyteam.github.io/eslint-config-alloy/?hideOff=1)
+
+### How to uninstall
+
+```
+yarn remove commitizen commitlint conventional-changelog-cli husky right-pad
+
+yarn remove babel-eslint eslint eslint-plugin-vue vue-eslint-parser eslint-config-alloy
+```
+delete `commitlint.config.js` `.eslintrc.js` `.prettierrc.js` at your root directory.
