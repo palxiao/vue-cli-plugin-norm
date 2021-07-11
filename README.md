@@ -1,6 +1,14 @@
 # vue-cli-plugin-norm
 Code style and validation, git commit specification. Fully automated!
 
+  <a href="https://npmcharts.com/compare/element-plus?minimal=true">
+    <img src="http://img.shields.io/npm/dm/element-plus.svg">
+  </a>
+
+  <a href="https://npmcharts.com/compare/vue-cli-plugin-norm?minimal=true">
+    <img src="http://img.shields.io/npm/dm/vue-cli-plugin-norm.svg">
+  </a>
+
 English / [简体中文](./README.zh-CN.md)
 
 ### Your vscode need to install plugin：`prettier` `eslint`
