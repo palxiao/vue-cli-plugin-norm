@@ -1,8 +1,8 @@
 # vue-cli-plugin-norm
 Code style and validation, git commit specification. Fully automated!
 
-  <a href="https://npmcharts.com/compare/element-plus?minimal=true">
-    <img src="http://img.shields.io/npm/dm/element-plus.svg">
+  <a href="https://www.npmjs.org/package/vue-cli-plugin-norm">
+    <img src="https://img.shields.io/npm/v/vue-cli-plugin-norm.svg">
   </a>
 
   <a href="https://npmcharts.com/compare/vue-cli-plugin-norm?minimal=true">
