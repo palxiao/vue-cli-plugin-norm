@@ -10,5 +10,4 @@ module.exports = (api, option) => {
         commit(api)
         console.log('📦  打包运送中: husky, commitlint, conventional-changelog')
     }
-    
 }

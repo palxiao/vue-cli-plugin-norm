@@ -12,12 +12,12 @@ module.exports = (api, options) => {
 
   // vue-cli的render没办法把隐藏文件复制过去：
   myfs.copyDir(normDir + '/style_template', './')
+  const framework = options.framework + (options.ts ? '__ts' : '')
+  myfs.copyFile(normDir + '/eslint_template/' + framework + '/.eslintrc.js', './.eslintrc.js')
+
   if (options.ts) {
     devDependencies['@typescript-eslint/eslint-plugin'] = '^4.28.3'
     devDependencies['@typescript-eslint/parser'] = '^4.28.3'
-    myfs.copyFile(normDir + '/style_ts_template/.eslintrc.js', './.eslintrc.js')
-  } else {
-    myfs.copyFile(normDir + '/style_noTs_template/.eslintrc.js', './.eslintrc.js')
   }
 
   api.extendPackage({
