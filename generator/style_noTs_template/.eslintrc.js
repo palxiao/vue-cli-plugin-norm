@@ -21,4 +21,9 @@ module.exports = {
       // 自定义你的规则
       'vue/component-tags-order': ['off']
     },
+    parserOptions: {
+      ecmaFeatures: {
+        legacyDecorators: true, // 配置允许注解
+      },
+    },
   };
