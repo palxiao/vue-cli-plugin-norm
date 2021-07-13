@@ -1,43 +1,55 @@
 # vue-cli-plugin-norm
-全自动的代码风格校验，以及Git代码提交规范
+Code style and validation, git commit specification, for Vue/React, Fully automated!
 
-简体中文 / [English](./README.EN.md)
+  <a href="https://www.npmjs.org/package/vue-cli-plugin-norm">
+    <img src="https://img.shields.io/npm/v/vue-cli-plugin-norm.svg">
+  </a>
 
-### 你的 vscode 需要安装以下插件：`prettier` `eslint`
+  <a href="https://npmcharts.com/compare/vue-cli-plugin-norm?minimal=true">
+    <img src="http://img.shields.io/npm/dm/vue-cli-plugin-norm.svg">
+  </a>
 
-注意: Vue项目中最好不选择引入TS校验，会有些奇怪的报错。
+  <a href="https://npmcharts.com/compare/vue-cli-plugin-norm?interval=365&minimal=true">
+    <img src="http://img.shields.io/npm/dm/vue-cli-plugin-norm.svg">
+  </a>
 
-### 目前依赖 Vue-cli，全局安装即可，即使你不使用Vue
+English / [简体中文](./README.zh-CN.md)
+
+### Your vscode need to install plugin：`prettier` `eslint`
+
+warn: It is best not to add TS-lint to Vue2/3, little bit strange.
+
+### Currently rely on Vue-cli
 ```
 npm install -g @vue/cli
 # OR
 yarn global add @vue/cli
 ```
 
-### 在你的项目上使用命令: 
+### At your project: 
 ```
 vue add vue-cli-plugin-norm
 ```
 
-### 开始使用!
+### Start, enjoy code!
 
-提交代码: 
+new commit: 
 ```
 npm run c
 ``` 
 
-查看提交的历史日志: 
+commit log view: 
 ```
 npm run clog
 ```
 
-本项目基于alloyteam团队使用的规范，你也可以根据情况自定义规则，参考文档：[ESlint reference Doc.](https://alloyteam.github.io/eslint-config-alloy/?hideOff=1)
+alloyteam's Doc : [ESlint reference Doc.](https://alloyteam.github.io/eslint-config-alloy/?hideOff=1)
 
-### 卸载
+### How to uninstall
 
 ```
 yarn remove commitizen commitlint conventional-changelog-cli husky right-pad
 
 yarn remove babel-eslint eslint eslint-plugin-vue vue-eslint-parser eslint-config-alloy
 ```
-删除根目录下的 `commitlint.config.js` `.eslintrc.js` `.prettierrc.js` 
+delete `commitlint.config.js` `.eslintrc.js` `.prettierrc.js` at your root directory.
