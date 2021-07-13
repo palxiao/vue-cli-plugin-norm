@@ -9,10 +9,6 @@ Code style and validation, git commit specification, for Vue/React, Fully automa
     <img src="http://img.shields.io/npm/dm/vue-cli-plugin-norm.svg">
   </a>
 
-  <a href="https://npmcharts.com/compare/vue-cli-plugin-norm?interval=365&minimal=true">
-    <img src="http://img.shields.io/npm/dm/vue-cli-plugin-norm.svg">
-  </a>
-
 English / [简体中文](./README.zh-CN.md)
 
 ### Your vscode need to install plugin：`prettier` `eslint`

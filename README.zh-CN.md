@@ -1,6 +1,14 @@
 # vue-cli-plugin-norm
 全自动的代码风格校验，以及Git代码提交规范，支持Vue及React项目
 
+  <a href="https://www.npmjs.org/package/vue-cli-plugin-norm">
+    <img src="https://img.shields.io/npm/v/vue-cli-plugin-norm.svg">
+  </a>
+
+  <a href="https://npmcharts.com/compare/vue-cli-plugin-norm?minimal=true">
+    <img src="http://img.shields.io/npm/dm/vue-cli-plugin-norm.svg">
+  </a>
+
 [English](./README.md) / 简体中文
 
 ### 你的 vscode 需要安装以下插件：`prettier` `eslint`
