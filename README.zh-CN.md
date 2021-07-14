@@ -28,18 +28,21 @@ yarn global add @vue/cli
 ```
 vue add vue-cli-plugin-norm
 ```
+![](./images/install.png)
 
 ### 开始使用!
 
 提交代码: 
 ```
-npm run c
+npm run c 或 npm run commit
 ``` 
+![](./images/c.png)
 
 查看提交的历史日志: 
 ```
 npm run clog
 ```
+![](./images/docs.png)
 
 本项目基于alloyteam团队使用的规范，你也可以根据情况自定义规则，参考文档：[ESlint reference Doc.](https://alloyteam.github.io/eslint-config-alloy/?hideOff=1)
 
