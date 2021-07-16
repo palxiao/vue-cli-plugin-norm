@@ -1,7 +1,7 @@
 {
   "name": "vue-cli-plugin-norm",
-  "version": "1.2.6",
-  "description": "Code style and validation, git commit specification. Fully automated!",
+  "version": "1.2.7",
+  "description": "Help project build Code style and validation, Git commit specification, quickly and fully automated!",
   "main": "index",
   "scripts": {
     "build": "webpack"

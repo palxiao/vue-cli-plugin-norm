@@ -1,6 +1,6 @@
 # vue-cli-plugin-norm
 
-Code style and validation, git commit specification, for Vue/React, Fully automated!
+Help project build Code style and validation, Git commit specification, quickly and fully automated! support Vue & React.
 
   <a href="https://www.npmjs.org/package/vue-cli-plugin-norm">
     <img src="https://img.shields.io/npm/v/vue-cli-plugin-norm.svg">

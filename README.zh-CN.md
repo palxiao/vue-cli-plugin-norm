@@ -1,6 +1,6 @@
 # vue-cli-plugin-norm
 
-全自动的代码风格校验，以及 Git 代码提交规范，支持 Vue 及 React 项目
+帮助你快速地对项目建立起全自动的代码风格校验，以及Git提交规范，支持 Vue 及 React 项目.
 
   <a href="https://www.npmjs.org/package/vue-cli-plugin-norm">
     <img src="https://img.shields.io/npm/v/vue-cli-plugin-norm.svg">
