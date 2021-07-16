@@ -16,8 +16,12 @@ module.exports = (api, options) => {
   myfs.copyFile(normDir + '/eslint_template/' + framework + '/.eslintrc.js', './.eslintrc.js')
 
   if (options.ts) {
-    devDependencies['@typescript-eslint/eslint-plugin'] = '^4.28.3'
-    devDependencies['@typescript-eslint/parser'] = '^4.28.3'
+    if (options.framework === 'vue') {
+      devDependencies['@vue/eslint-config-typescript'] = '^7.0.0'
+    } else {
+      devDependencies['@typescript-eslint/eslint-plugin'] = '^4.28.3'
+      devDependencies['@typescript-eslint/parser'] = '^4.28.3'
+    }
   }
 
   api.extendPackage({
