@@ -13,7 +13,7 @@ English / [简体中文](./README.zh-CN.md)
 
 ### Your vscode need to install plugin：`prettier` `eslint`
 
-warn: It is best not to add TS-lint to Vue2/3, little bit strange.
+Now code validation support vue2/3 + TypeScript.
 
 ### Currently rely on Vue-cli
 ```
