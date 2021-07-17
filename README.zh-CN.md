@@ -56,6 +56,8 @@ npm run clog
 
 本项目基于 alloyteam 团队使用的规范，你也可以根据情况自定义规则，参考文档：[ESlint reference Doc.](https://alloyteam.github.io/eslint-config-alloy/?hideOff=1)
 
+![](./images/v.png)
+
 ### 卸载
 
 ```

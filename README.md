@@ -34,8 +34,6 @@ yarn global add @vue/cli
 vue add vue-cli-plugin-norm
 ```
 
-![](./images/install.png)
-
 ### Start, enjoy code!
 
 new commit:
@@ -43,8 +41,6 @@ new commit:
 ```
 npm run c / npm run commit
 ```
-
-![](./images/c.png)
 
 commit log view:
 
@@ -55,6 +51,8 @@ npm run clog
 ![](./images/docs.png)
 
 alloyteam's Doc : [ESlint reference Doc.](https://alloyteam.github.io/eslint-config-alloy/?hideOff=1)
+
+![](./images/v.png)
 
 ### How to uninstall
 
