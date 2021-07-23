@@ -1,13 +1,21 @@
+<!--
+ * @Author: ShawnPhang
+ * @Date: 2021-07-08 14:27:29
+ * @Description: 
+ * @LastEditors: ShawnPhang
+ * @LastEditTime: 2021-07-23 14:31:14
+ * @site: book.palxp.com / blog.palxp.com
+-->
 # vue-cli-plugin-norm
 
-Help project build Code style and validation, Git commit specification, quickly and fully automated! support Vue & React.
+Build Code style and validation, Git commit specification, quickly and fully automated! support Vue & React.
 
   <a href="https://www.npmjs.org/package/vue-cli-plugin-norm">
     <img src="https://img.shields.io/npm/v/vue-cli-plugin-norm.svg">
   </a>
 
   <a href="https://npmcharts.com/compare/vue-cli-plugin-norm?minimal=true">
-    <img src="http://img.shields.io/npm/dm/vue-cli-plugin-norm.svg">
+    <img src="http://img.shields.io/npm/dt/vue-cli-plugin-norm.svg">
   </a>
 
 English / [简体中文](./README.zh-CN.md)
@@ -48,11 +56,11 @@ commit log view:
 npm run clog
 ```
 
-![](./images/docs.png)
+![](http://book.palxp.com/images/norm/docs.png)
 
 alloyteam's Doc : [ESlint reference Doc.](https://alloyteam.github.io/eslint-config-alloy/?hideOff=1)
 
-![](./images/v.png)
+![](http://book.palxp.com/images/norm/v.png)
 
 ### How to uninstall
 
