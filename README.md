@@ -3,7 +3,7 @@
  * @Date: 2021-07-08 14:27:29
  * @Description: 
  * @LastEditors: ShawnPhang
- * @LastEditTime: 2021-07-23 14:31:14
+ * @LastEditTime: 2021-07-23 14:35:29
  * @site: book.palxp.com / blog.palxp.com
 -->
 # vue-cli-plugin-norm
@@ -55,8 +55,6 @@ commit log view:
 ```
 npm run clog
 ```
-
-![](http://book.palxp.com/images/norm/docs.png)
 
 alloyteam's Doc : [ESlint reference Doc.](https://alloyteam.github.io/eslint-config-alloy/?hideOff=1)
 
