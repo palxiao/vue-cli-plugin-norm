@@ -21,7 +21,8 @@ module.exports = {
     },
     rules: {
       // 自定义你的规则
-      'vue/component-tags-order': ['off']
+      'vue/component-tags-order': ['off'],
+      'vue/no-multiple-template-root': ['off'],// 关闭模板多个根元素的错误提示
     },
     parserOptions: {
       ecmaFeatures: {
