@@ -1,3 +1,11 @@
+/*
+ * @Author: ShawnPhang
+ * @Date: 2021-06-26 11:04:49
+ * @Description: 
+ * @LastEditors: ShawnPhang
+ * @LastEditTime: 2021-09-17 19:47:30
+ * @site: book.palxp.com / blog.palxp.com
+ */
 module.exports = (api) => {
     api.render('./commit_template');
     api.extendPackage({
@@ -9,7 +17,7 @@ module.exports = (api) => {
             "right-pad": "^1.0.1"
         },
         scripts: {
-            "clog": "conventional-changelog --config ./node_modules/vue-cli-plugin-norm/lib/log -i _CHANGELOG.md -s -r 0 && commit-log",
+            "clog": "conventional-changelog --config ./node_modules/vue-cli-plugin-norm/lib/log -i CHANGELOG.md -s -r 0 && commit-log",
             "c": "git add . && git-cz",
             "commit": "git add . && git-cz"
         },

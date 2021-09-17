@@ -1,3 +1,11 @@
+/*
+ * @Author: ShawnPhang
+ * @Date: 2021-06-26 21:46:52
+ * @Description: 
+ * @LastEditors: ShawnPhang
+ * @LastEditTime: 2021-09-17 19:47:38
+ * @site: book.palxp.com / blog.palxp.com
+ */
 #!/usr/bin/env node
 
 var express = require('express');
@@ -14,7 +22,7 @@ var urlencodedParser = bodyParser.urlencoded({ extended: false });
 
 app.get('/getMdFile',urlencodedParser, function(req, res) {
 
-    var data = fs.readFileSync('_CHANGELOG.md', 'utf-8');
+    var data = fs.readFileSync('CHANGELOG.md', 'utf-8');
     res.end(JSON.stringify({
         body : marked(data)
     }));
